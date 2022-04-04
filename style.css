@@ -1,0 +1,13 @@
+nav{
+  display: flex;
+}
+
+.landing{
+  height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+.project{
+  height: 100vh;
+}
