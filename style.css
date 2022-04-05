@@ -12,3 +12,13 @@ nav{
   height: 100vh;
 }
 
+/* .project-img-container{
+  height: 50%;
+  width: 90%;
+} */
+
+img{
+  max-width: 90%;
+  max-height: auto;
+}
+
