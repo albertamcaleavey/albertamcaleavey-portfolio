@@ -1,24 +1,64 @@
+main{
+  margin: 1%;
+}
+
 nav{
   display: flex;
+  justify-content: space-between;
+}
+
+.logo, .logo-container{
+  background-color: rgb(42, 42, 42);
+  padding: 2%;
+  color: white;
+  text-align: left;
+  width: fit-content;
+}
+
+.nav-right{
+  text-align: right;
+  align-self: center;
+  width: fit-content;
+}
+
+.nav-desktop{
+  margin: 3%;
 }
 
 .landing{
-  height: 100vh;
+  height: 93vh;
   display: grid;
   place-content: center;
+}
+
+.landing-container{
+  text-align: center;
+}
+
+h1{
+  font-size: 50px;
 }
 
 .project{
   height: 100vh;
 }
 
-/* .project-img-container{
-  height: 50%;
-  width: 90%;
-} */
+.project-img-container{
+  display: flex;
+  justify-content: center;
+}
 
 img{
-  max-width: 90%;
+  max-width: 100%;
   max-height: auto;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  background-color: rgb(230, 230, 230);
 }
 
