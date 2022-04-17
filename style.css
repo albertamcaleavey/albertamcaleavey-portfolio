@@ -2,9 +2,8 @@ main{
   padding: 1%;
 }
 
-nav{
-  display: flex;
-  justify-content: space-between;
+.navbar-desktop{
+  display: none;
 }
 
 .logo, .logo-container{
@@ -37,16 +36,20 @@ nav{
 
 h1{
   font-size: 50px;
+  margin: 1%;
 }
 
-.project{
+.project-section {
   height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .project-img-container{
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  max-height: 70%;
+  max-height: 70%; */
 }
 
 img{
@@ -66,18 +69,31 @@ a:hover {
 footer {
   text-align: center;
   display: grid;
+  margin: 5%;
 }
 
 .footer-icons {
+  margin: 3%;
   place-self: center;
   display: flex;
   width: 60%;
   justify-content: space-between;
 }
 
+i {
+  font-size: 1rem;
+}
+
 
 
 @media only screen and (min-width: 768px){
-
+  .navbar-mobile {
+    display: none;
+  }
+  
+  .navbar-desktop {
+    display: flex;
+    justify-content: space-between;
+  }
 
 }
