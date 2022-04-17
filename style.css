@@ -1,5 +1,5 @@
 main{
-  margin: 1%;
+  padding: 1%;
 }
 
 nav{
@@ -18,11 +18,11 @@ nav{
 .nav-right{
   text-align: right;
   align-self: center;
-  width: fit-content;
+  width: 100%;
 }
 
 .nav-desktop{
-  margin: 3%;
+  margin: 1%;
 }
 
 .landing{
@@ -40,17 +40,18 @@ h1{
 }
 
 .project{
-  height: 100vh;
+  height: 90vh;
 }
 
 .project-img-container{
   display: flex;
   justify-content: center;
+  max-height: 70%;
 }
 
 img{
   max-width: 100%;
-  max-height: auto;
+  /* max-height: 50%; */
 }
 
 a{
@@ -62,3 +63,21 @@ a:hover {
   background-color: rgb(230, 230, 230);
 }
 
+footer {
+  text-align: center;
+  display: grid;
+}
+
+.footer-icons {
+  place-self: center;
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+
+
+
+@media only screen and (min-width: 768px){
+
+
+}
