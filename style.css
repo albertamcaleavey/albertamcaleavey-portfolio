@@ -17,11 +17,15 @@ main{
   place-content: center;
 }
 
+.name {
+  font-size: 3rem;
+}
+
 .landing-container{
   text-align: center;
 }
 
-h1{
+.project-name {
   font-size: 2rem;
   margin-bottom: 3%;
   margin-top: 5%;
@@ -41,6 +45,10 @@ h1{
 
 .project-description{
   color: grey;
+}
+
+.project-img-container {
+  border: 1px solid rgb(190, 190, 190);
 }
 
 img{
@@ -78,6 +86,10 @@ display: grid;
 font-size: small;
 }
 
+label {
+  color: grey;
+}
+
 i {
   font-size: 1rem;
 }
@@ -97,6 +109,7 @@ i {
     text-align: right;
     align-self: center;
     width: 100%;
+    margin-right: 1%;
   }
 
   .navbar-desktop-link {
@@ -130,8 +143,12 @@ i {
   }
 
   footer {
-    padding-top: 1%;
+    padding-top: 7%;
     padding-bottom: 1%;
+  }
+
+  .footer-icon-container {
+    width: 30%;
   }
 
 }
