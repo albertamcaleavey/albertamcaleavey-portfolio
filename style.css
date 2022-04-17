@@ -37,15 +37,15 @@ main{
 h1{
   font-size: 2rem;
   margin-bottom: 3%;
-  margin-top: 3%;
+  margin-top: 5%;
 }
 
 .animate__shakeY {
-  --animate-duration: 20s;
+  --animate-duration: 25s;
 }
 
 .project-section {
-  height: 90vh;
+  /* height: 90vh; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -101,5 +101,22 @@ i {
     display: flex;
     justify-content: space-between;
   }
+
+  .project-section {
+    display: grid;
+    grid-template: 1fr / 1fr 2fr;
+    place-items: center;
+  }
+
+  .project-text-content {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: start;
+  }
+
+  .project-img-container {
+    grid-column: 2;
+  }
+
 
 }
