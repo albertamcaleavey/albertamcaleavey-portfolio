@@ -48,13 +48,13 @@ main{
   font-size: large;
 }
 
-.description,.project-description, label {
+.description,.project-description, label, .fa-angle-down {
   color: grey;
 }
 
 .project-link {
   border: 1px solid rgb(203, 203, 203);
-  padding: 2%;
+  padding: 1%;
 }
 
 img{
@@ -145,6 +145,10 @@ i {
 
   .footer-icon-container {
     width: 30%;
+  }
+
+  .project-link {
+    padding: 2%;
   }
 
 }
