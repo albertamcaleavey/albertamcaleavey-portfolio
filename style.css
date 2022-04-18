@@ -4,7 +4,6 @@ main{
 
 .secondary-font {
   font-family: sans-serif;
-  font-weight: 100;
 }
 
 .navbar-desktop{
@@ -36,19 +35,19 @@ main{
 }
 
 .project-section {
-  height: 95vh;
+  height: 85vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 3%;
 }
 
-.project-description{
-  color: grey;
+.project-description {
+  margin-bottom: 8%;
 }
 
-.project-img-container {
-  border: 1px solid rgb(190, 190, 190);
+.description,.project-description, label {
+  color: grey;
 }
 
 img{
@@ -86,10 +85,6 @@ display: grid;
 font-size: small;
 }
 
-label {
-  color: grey;
-}
-
 i {
   font-size: 1rem;
 }
@@ -117,12 +112,7 @@ i {
   }
 
   .logo, .logo-container{
-    /* background-color: rgb(42, 42, 42); */
-    /* padding: 2%; */
     margin: 1%;
-    /* color: white; */
-    /* text-align: left; */
-    /* width: fit-content; */
   }
 
   .project-section {
