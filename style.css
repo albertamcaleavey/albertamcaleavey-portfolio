@@ -25,6 +25,17 @@ main{
   text-align: center;
 }
 
+.about-img-container {
+  display: grid;
+  place-content: center;
+}
+
+.about-description {
+  /* text-align: center; */
+}
+
+
+
 .project-name {
   font-size: 3rem;
   margin-bottom: 3%;
@@ -44,7 +55,7 @@ main{
 }
 
 .project-description {
-  margin-bottom: 15%;
+  margin-bottom: 10%;
   font-size: large;
 }
 
