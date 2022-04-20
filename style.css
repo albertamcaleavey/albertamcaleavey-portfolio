@@ -6,6 +6,7 @@ main{
 .secondary-font {
   font-family: sans-serif;
   color: grey;
+  font-weight: 100;
 }
 
 .navbar-desktop{
@@ -65,11 +66,11 @@ main{
   color: black;
 }
 
-img{
+img {
   max-width: 100%;
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
 }
@@ -102,6 +103,10 @@ font-size: small;
 
 i {
   font-size: 2rem;
+}
+
+i:hover {
+  color: grey;
 }
 
 @media only screen and (min-width: 768px){
@@ -162,6 +167,10 @@ i {
   .about-description {
     margin-left: 3%;
     margin-right: 20%;
+  }
+
+  .about-section {
+    height: 50vh;
   }
 
 }
