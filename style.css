@@ -3,10 +3,14 @@ main{
   font-size: 1rem;
 }
 
-.secondary-font {
+.secondary-font, label {
   font-family: sans-serif;
   color: grey;
   font-weight: 100;
+}
+
+label {
+  font-size: small;
 }
 
 .navbar-desktop {
@@ -103,8 +107,8 @@ footer {
 }
 
 .footer-icon {
-display: grid;
-font-size: small;
+  display: grid;
+  font-size: small;
 }
 
 i {
@@ -113,6 +117,23 @@ i {
 
 i:hover {
   color: grey;
+}
+
+.skills-logos {
+  margin: 3%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.skills-logo-container {
+  margin: 3%;
+  display: grid;
+  place-items: center;
+}
+
+.skills-header {
+  text-align: center;
 }
 
 @media only screen and (min-width: 768px){
@@ -158,8 +179,7 @@ i:hover {
   }
 
   footer {
-    padding-top: 7%;
-    padding-bottom: 1%;
+    padding: 3% 0 1% 0;
   }
 
   .footer-icon-container {
@@ -171,8 +191,7 @@ i:hover {
   }
 
   .about-description {
-    margin-left: 3%;
-    margin-right: 20%;
+    margin: 0 20% 0 5%;
   }
 
   .about-section {
