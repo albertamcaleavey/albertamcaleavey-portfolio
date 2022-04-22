@@ -62,8 +62,12 @@ label {
 }
 
 .project-description {
+  /* font-size: large; */
+}
+
+.tech-used {
   margin-bottom: 10%;
-  font-size: large;
+  font-style: italic;
 }
 
 .description,.project-description, label, .fa-angle-down {
