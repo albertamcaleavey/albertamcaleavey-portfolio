@@ -65,7 +65,7 @@ label {
   font-style: italic;
 }
 
-.description,.project-description, label, .fa-angle-down {
+.fa-angle-down {
   color: grey;
 }
 
