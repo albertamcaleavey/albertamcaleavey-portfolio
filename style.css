@@ -129,10 +129,15 @@ i:hover {
 }
 
 .skills-logos {
-  margin: 3%;
+  /* margin: 3%; */
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   flex-wrap: wrap;
+}
+
+.skill-logo {
+  height: 65px;
+  width: 65px;
 }
 
 .skills-logo-container {
