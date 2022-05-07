@@ -129,9 +129,9 @@ i:hover {
 }
 
 .skills-logos {
-  /* margin: 3%; */
+  margin: 3%;
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
