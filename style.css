@@ -29,12 +29,33 @@ label {
   place-content: center;
 }
 
-.name {
-  font-size: 4rem;
-}
-
 .landing-container{
   text-align: center;
+  display: grid;
+  justify-items: center;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.social-container {
+  border: 1px solid black;
+  width: fit-content;
+  border-radius: 50px;
+  padding: 8%;
+  background-color: transparent;
+}
+
+button:hover {
+  border: 1px solid grey;
+  color: grey;
+}
+
+.name {
+  font-size: 4rem;
 }
 
 .about-img-container {
@@ -51,6 +72,7 @@ label {
 
 .animate__shakeY {
   --animate-duration: 25s;
+  justify-self: center;
 }
 
 .project-section {
@@ -85,7 +107,7 @@ label {
   color: grey;
 }
 
-.project-img {
+.project-img, video {
   max-width: 100%;
 }
 
@@ -151,7 +173,7 @@ i:hover {
 }
 
 @media only screen and (min-width: 600px) {
-  .project-img {
+  .project-img, video {
     max-width: 80%;
   }
 }
@@ -161,7 +183,7 @@ i:hover {
     display: none;
   }
 
-  .project-img {
+  .project-img, video {
     max-width: 100%;
   }
 
