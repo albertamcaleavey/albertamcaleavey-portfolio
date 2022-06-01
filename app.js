@@ -18,37 +18,21 @@ const aboutDescriptionPicObserver = new IntersectionObserver((entries) => {
 
 aboutDescriptionPicObserver.observe(document.querySelector('.about-description'))
 
-const taskFlowObserver = new IntersectionObserver((entries) => {
+aboutMePicObserver.observe(document.querySelector('.about-img-container'))
+
+const skillsObserver = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
-      entry.target.classList.add("animate__animated", "animate__fadeInLeft", "animate__slow")
+      entry.target.classList.add("animate__animated", "animate__fadeIn", "animate__slow")
     }
   })
 })
 
-taskFlowObserver.observe(document.getElementById('task-flow'))
+skillsObserver.observe(document.getElementById('skills'))
 
-const cacheObserver = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add("animate__animated", "animate__fadeInRight", "animate__slow")
-    }
-  })
-})
+// Task Flow --------------------------------
 
-cacheObserver.observe(document.getElementById('cache'))
-
-const movieBuffObserver = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add("animate__animated", "animate__fadeInLeft", "animate__slow")
-    }
-  })
-})
-
-movieBuffObserver.observe(document.getElementById('movie-buff'))
-
-const runTrackerObserver = new IntersectionObserver((entries) => {
+const taskflowImgObserver = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       entry.target.classList.add("animate__animated", "animate__fadeInRight", "animate__slow")
@@ -56,4 +40,84 @@ const runTrackerObserver = new IntersectionObserver((entries) => {
   })
 })
 
-runTrackerObserver.observe(document.getElementById('run-tracker'))
+taskflowImgObserver.observe(document.querySelector('.task-flow-img'))
+
+const taskflowTextObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("animate__animated", "animate__fadeInLeft", "animate__slow")
+    }
+  })
+})
+
+taskflowTextObserver.observe(document.querySelector('.task-flow-text'))
+
+// Cache --------------------------------
+
+const cacheImgObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("animate__animated", "animate__fadeInRight", "animate__slow")
+    }
+  })
+})
+
+cacheImgObserver.observe(document.querySelector('.cache-img'))
+
+const cacheTextObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("animate__animated", "animate__fadeInLeft", "animate__slow")
+    }
+  })
+})
+
+cacheTextObserver.observe(document.querySelector('.cache-text'))
+
+// Movie Buff --------------------------------
+
+const movieBuffImgObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("animate__animated", "animate__fadeInRight", "animate__slow")
+    }
+  })
+})
+
+movieBuffImgObserver.observe(document.querySelector('.movie-buff-img'))
+
+const movieBuffTextObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("animate__animated", "animate__fadeInLeft", "animate__slow")
+    }
+  })
+})
+
+movieBuffTextObserver.observe(document.querySelector('.movie-buff-text'))
+
+// Run Tracker --------------------------------
+
+const movieBuffImgObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("animate__animated", "animate__fadeInRight", "animate__slow")
+    }
+  })
+})
+
+movieBuffImgObserver.observe(document.querySelector('.movie-buff-img'))
+
+const movieBuffTextObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("animate__animated", "animate__fadeInLeft", "animate__slow")
+    }
+  })
+})
+
+movieBuffTextObserver.observe(document.querySelector('.movie-buff-text'))
+
+
+
+
