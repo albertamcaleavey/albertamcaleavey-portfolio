@@ -98,7 +98,7 @@ movieBuffTextObserver.observe(document.querySelector('.movie-buff-text'))
 
 // Run Tracker --------------------------------
 
-const movieBuffImgObserver = new IntersectionObserver((entries) => {
+const runTrackerImgObserver = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       entry.target.classList.add("animate__animated", "animate__fadeInRight", "animate__slow")
@@ -106,9 +106,9 @@ const movieBuffImgObserver = new IntersectionObserver((entries) => {
   })
 })
 
-movieBuffImgObserver.observe(document.querySelector('.movie-buff-img'))
+runTrackerImgObserver.observe(document.querySelector('.run-tracker-img'))
 
-const movieBuffTextObserver = new IntersectionObserver((entries) => {
+const runTrackerTextObserver = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       entry.target.classList.add("animate__animated", "animate__fadeInLeft", "animate__slow")
@@ -116,7 +116,7 @@ const movieBuffTextObserver = new IntersectionObserver((entries) => {
   })
 })
 
-movieBuffTextObserver.observe(document.querySelector('.movie-buff-text'))
+runTrackerTextObserver.observe(document.querySelector('.run-tracker-text'))
 
 
 
