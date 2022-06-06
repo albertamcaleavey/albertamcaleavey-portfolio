@@ -153,7 +153,7 @@ i:hover {
 }
 
 .skills-logos {
-  margin: 3%;
+  margin: 1%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
