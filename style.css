@@ -167,6 +167,7 @@ i:hover {
 .skills-logo-container {
   margin: 3%;
   display: grid;
+  place-items: center;
 }
 
 .skills-header {
